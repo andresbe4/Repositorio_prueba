@@ -1,0 +1,124 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #4b0082, #6a0dad); /* Gradiente morado */
+    color: #fff;
+    padding: 1.5rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #00ff00; /* Verde brillante */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Noticias */
+article {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+article:hover {
+    transform: scale(1.02);
+}
+
+article img {
+    max-width: 300px; /* Ajusta el ancho máximo de las imágenes */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+article h3 {
+    margin-top: 0;
+    color: #4b0082; /* Morado oscuro */
+}
+
+article a.leer-mas {
+    display: inline-block;
+    margin-top: 10px;
+    color: #00ff00; /* Verde brillante */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article a.leer-mas:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar */
+.sidebar-widget {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-widget h3 {
+    margin-top: 0;
+    color: #4b0082; /* Morado oscuro */
+}
+
+/* Footer */
+footer {
+    background: #4b0082; /* Morado oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 20px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: #00ff00; /* Verde brillante */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
